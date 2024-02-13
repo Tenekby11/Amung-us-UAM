@@ -6,12 +6,12 @@ public class Impostor extends Jugador {
     //fin de los atributos
 
     //constructor por defecto
-   public Impostor(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, String color) {
+   public Impostor(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, Color color) {
         super(nombre, vivo, posicion, items, tareas, votosRecibidos, color);
     }
 
     // Constructor getters y setters
-    public Impostor(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, String color, boolean cambiaFormas) {
+    public Impostor(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, Color color, boolean cambiaFormas) {
         super(nombre, vivo, posicion, items, tareas, votosRecibidos, color);
         this.cambiaFormas = cambiaFormas;
     }

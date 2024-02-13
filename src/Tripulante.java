@@ -5,12 +5,12 @@ public class Tripulante extends Jugador {
     //fin de los atributos
 
     //constructor por defecto
-    public Tripulante(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, String color) {
+    public Tripulante(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, Color color) {
         super(nombre, vivo, posicion, items, tareas, votosRecibidos, color);
     }
 
     // Constructor settes y getters
-    public Tripulante(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, String color, String tipo) {
+    public Tripulante(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, Color color, String tipo) {
         super(nombre, vivo, posicion, items, tareas, votosRecibidos, color);
         this.tipo = tipo;
     }

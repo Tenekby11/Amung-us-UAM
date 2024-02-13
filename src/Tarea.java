@@ -2,10 +2,28 @@ public class Tarea {
     private String descripcion;
     private boolean realizada;
 
-    // Constructor
-    public Tarea(String descripcion) {
+
+    // Constructor y getter y setter
+    public Tarea(String descripcion, boolean realizada) {
         this.descripcion = descripcion;
-        this.realizada = false;
+        this.realizada = realizada;
+
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public boolean isRealizada() {
+        return realizada;
+    }
+
+    public void setRealizada(boolean realizada) {
+        this.realizada = realizada;
     }
 
 
@@ -14,7 +32,6 @@ public class Tarea {
     public void realizar() {
         realizada = true;
     }
-
 
 
 }

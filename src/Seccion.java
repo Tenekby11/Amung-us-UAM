@@ -16,15 +16,6 @@ public class Seccion {
         this.ductos = ductos;
     }
 
-    // Métodos de la sección
-    public void agregarTarea(Tarea tarea) {
-        tareas.add(tarea);
-    }
-
-    public void sabotear() {
-        // Implementa la lógica para sabotear aquí
-    }
-
     // Getters y setters
     public String getNombre() {
         return nombre;
@@ -53,4 +44,18 @@ public class Seccion {
     public void setDuctos(Ducto[] ductos) {
         this.ductos = ductos;
     }
+
+
+
+
+    // Métodos de la sección
+    public void agregarTarea(Tarea tarea) {
+        tareas.add(tarea);
+    }
+
+    public void sabotear() {
+        // Implementa la lógica para sabotear aquí
+    }
+
+
 }

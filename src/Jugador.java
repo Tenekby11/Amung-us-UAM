@@ -9,11 +9,10 @@ import java.util.List;
     private List<Item> items;
     private List<Tarea> tareas;
     private int votosRecibidos;
-    private String color;
+    private Color color;
 
     // Constructor Getters y setters
-
-        public Jugador(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, String color) {
+        public Jugador(String nombre, boolean vivo, Seccion posicion, List<Item> items, List<Tarea> tareas, int votosRecibidos, Color color) {
             this.nombre = nombre;
             this.vivo = vivo;
             this.posicion = posicion;
@@ -71,11 +70,11 @@ import java.util.List;
             this.votosRecibidos = votosRecibidos;
         }
 
-        public String getColor() {
+        public Color getColor() {
             return color;
         }
 
-        public void setColor(String color) {
+        public void setColor(Color color) {
             this.color = color;
         }
 
